@@ -56,8 +56,6 @@ function FormPage() {
       laboratorio: data.laboratorio,
       observacoes: data.observacoes ?? '',
     }
-  
-  console.log('payloadpayloadpayloadpayload',payload)
 
     if (isEditing) {
       updateData({ ...payload, id: editingItem.id } as any)
